@@ -23,12 +23,25 @@
             width: 100%;
             top: 0;
             left: 0;
+            margin: 0 auto;
+        }
+
+        #check {
+            display: none;
+        }
+
+        .bar-btn {
+            display: none;
         }
 
         .nav {
+            height: 80px;
+            width: 100%;
             display: flex;
             justify-content: space-between;
             margin: 0 auto;
+            grid-area: nav;
+            align-items: center;
         }
 
         .nav-link {
@@ -36,11 +49,11 @@
             text-decoration: none;
         }
 
-        .logo {
-            font-size: 40px;
-            font-weight: 600;
-            padding:  0 40px;
-            line-height: 80px;
+        .logo1 {
+            width: 80px;
+            height: 80px;
+            margin-left: 20px;
+            margin-top: -40px;
         }
 
         .infinity {
@@ -48,6 +61,7 @@
             font-weight: 600;
             padding:  0 40px;
             line-height: 70px;
+            margin-top: -20px;
         }
 
         .nav-menu {
@@ -75,6 +89,7 @@
             background-color: rgb(238, 140, 12);
             transition: 0.5s;
         }
+
 
     /* MAIN */
 
