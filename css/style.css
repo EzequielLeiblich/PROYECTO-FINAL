@@ -7,14 +7,134 @@
 
 /* BODY */
 
-
+    body {
+        font-family: sans-serif;
+        padding: 90px 20px 0;
+        background-image: url("https://www.blucactus.com.mx/wp-content/uploads/2018/05/Blucactus-MX-background-01.jpg");
+        background-size: 100%;
+    }
 
 /* HEADER */
 
+    .header {
+        background-color: rgb(251, 255, 0);
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
 
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav-link {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+    }
+
+    .logo {
+        font-size: 40px;
+        font-weight: 600;
+        padding:  0 40px;
+        line-height: 80px;
+    }
+
+    .infinity {
+        font-size: 40px;
+        font-weight: 600;
+        padding:  0 40px;
+        line-height: 70px;
+    }
+
+    .nav-menu {
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+        font-weight: bold;
+    }
+
+    .nav-menu-item {
+        font-size: 22px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    .nav-menu-link {
+        padding: 8px;
+        border-radius: 3px;
+    }
+
+    .nav-menu-link:hover ,
+    .nav-menu-link_active {
+        background-color: rgb(238, 140, 12);
+        transition: 0.5s;
+    }
 
 /* MAIN */
 
 
 
 /* FOOTER */
+
+    .footer {
+        background-color: rgba(161, 161, 161, 0.199);
+        height: 80px;
+        position: inherit;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .foot-link {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+    }
+
+    .copyright {
+        border-width:3px;
+        border-style: dashed;
+        border-color:rgb(0, 0, 0);
+        border-radius: 25px;
+        font-size: 25px;
+        font-weight: 60px;
+        padding:  0 0 0 0;
+        line-height: 70px;
+    }
+
+    .foot-menu {
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+        font-weight: bold;
+    }
+
+    .foot-menu-item {
+        font-size: 22px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    .foot-menu-link {
+        padding: 8px;
+        border-radius: 3px;
+    }
+
+    .foot-menu-link:hover ,
+    .foot-menu-link_active {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
