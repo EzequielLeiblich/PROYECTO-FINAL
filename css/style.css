@@ -339,6 +339,7 @@
                 }
 
                 .tit_mensajes {
+                font-size: 60px;
                 text-decoration: underline;
                 font-weight: bolder;
                 background-color: rgba(255, 0, 0, 0.336);
@@ -502,8 +503,11 @@
 
     /* MAIN */
 
-        /* SERVICIOS Y MARKETING */
+        /* NOSOTROS */
 
+            .tit_ns {
+                font-size: 40px;
+            }
         
             .pic1 {
                 width: 100%;
@@ -542,9 +546,13 @@
                 "txt4";
             }
 
+            .tit_servicios {
+                font-size: 30px;
+            }
+
             .servicios {
                 display: grid;
-                font-size: 25px;
+                font-size: 20px;
                 text-align: justify;
                 background-color: rgba(255, 255, 0, 0.336);
                 place-items: center;
@@ -557,9 +565,13 @@
                 "txt2";
             }
 
+            .tit_mt {
+                font-size: 30px;
+            }
+
             .marketing {
                 display: grid;
-                font-size: 25px;
+                font-size: 20px;
                 text-align: justify;
                 place-items: center;
                 background-color: rgba(255, 255, 0, 0.5);
@@ -572,7 +584,11 @@
                 "txt4";
             }
 
-        /* QUIENES SOMOS */
+        /* NOSOTROS */
+
+            .historia {
+                font-size: 40px;
+            }
 
             .contenedor-2 {
                 width: 90%;
@@ -590,9 +606,21 @@
                 "desc2";
             }
 
+            .tit_nosotros {
+                font-size: 30px;
+            }
+
+            .nosotros {
+                font-size: 20px;
+            }
+
+            .tit_qs {
+                font-size: 30px;
+            }
+
             .qs {
                 display: grid;
-                font-size: 25px;
+                font-size: 20px;
                 text-align: justify;
                 background-color: rgba(255, 255, 0, 0.336);
                 grid-template-columns: repeat(1, 1fr);
@@ -603,6 +631,103 @@
                 "desc2";
             }
 
+        /* MULTIMEDIA */
+
+            .tit_multimedia {
+                font-size: 40px;
+            }
+
+            .mm1 {
+                width: 100%;
+            }
+
+            .mm2 {
+                width: 100%;
+            }
+
+            .mm3 {
+                width: 100%;
+            }
+
+            .mm4 {
+                width: 100%;
+            }
+
+            .mm5 {
+                width: 100%;
+            }
+
+            .mm6 {
+                width: 100%;
+            }
+
+            .mm7 {
+                width: 100%;
+            }
+
+            .mm8 {
+                width: 100%;
+            }
+
+            .mm9 {
+                width: 100%;
+            }
+
+
+        /* BLOG */
+
+            .tit_fuentes {
+                font-size: 40px;
+            }
+
+            .bg1 {
+                width: 100%;
+            }
+            .bg2 {
+                width: 100%;
+            }
+            .bg3 {
+                width: 100%;
+            }
+            .bg4 {
+                width: 100%;
+            }
+            .bg5 {
+                width: 100%;
+            }
+            .bg6 {
+                width: 100%;
+            }
+            .bg7 {
+                width: 100%;
+            }
+
+        /* CONTACTO */
+
+            .tit_ubicacion {
+                font-size: 40px;
+            }
+
+            .lista_u {
+                font-size: 20px;
+            }
+
+            .mapa {
+                width: 100%;
+            }
+
+            .tit_mensajes {
+                font-size: 30px;
+            }
+
+            .mensajes {
+                font-size: 15px;
+            }
+
+            .tit_clientes {
+                font-size: 30px;
+            }
+        
 
     /* FOOTER */
 
