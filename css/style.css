@@ -123,6 +123,11 @@
                 "txt4 pic4";
             }
 
+            .contenedor-1:hover {
+                transform: scale(1.04);
+                transition: all 6s ease;
+            }
+
             /* 1er SECCION SERVICIOS */
 
                 .tit_servicios {
@@ -221,6 +226,11 @@
                 "desc2 per2";
             }
 
+            .contenedor-2:hover {
+                transform: scale(1.04);
+                transition: all 6s ease;
+            }
+
             /* 1er SECCION NOSOTROS */
 
                 .tit_nosotros {
@@ -291,6 +301,11 @@
                 margin: 10px auto;
             }
 
+            .contenedor-3:hover {
+                transform: scale(1.04);
+                transition: all 6s ease;
+            }
+
             .multimedia {
                 text-align: center;
                 justify-content: space-between;
@@ -309,6 +324,11 @@
             .contenedor-4 {
                 width: 90%;
                 margin: 10px auto;
+            }
+
+            .contenedor-4:hover {
+                transform: scale(1.03);
+                transition: all 6s ease;
             }
 
             .tit_fuentes {
@@ -338,6 +358,11 @@
             .contenedor-5 {
                 width: 90%;
                 margin: 10px auto;
+            }
+
+            .contenedor-5:hover {
+                transform: scale(1.04);
+                transition: all 6s ease;
             }
 
             /* 1er SECCION UBICACION */
@@ -529,7 +554,7 @@
 
     /* MAIN */
 
-        /* NOSOTROS */
+        /* SERVICIOS */
 
             .tit_ns {
                 font-size: 40px;
@@ -570,6 +595,11 @@
                 "txt3"
                 "pic4"
                 "txt4";
+            }
+
+            .contenedor-1:hover {
+                transform: scale(1.02);
+                transition: all 6s ease;
             }
 
             .tit_servicios {
@@ -632,6 +662,11 @@
                 "desc2";
             }
 
+            .contenedor-2:hover {
+                transform: scale(1.02);
+                transition: all 6s ease;
+            }
+
             .tit_nosotros {
                 font-size: 30px;
             }
@@ -661,6 +696,11 @@
 
             .tit_multimedia {
                 font-size: 40px;
+            }
+
+            .contenedor-3:hover {
+                transform: scale(1.03);
+                transition: all 6s ease;
             }
 
             .mm1 {
@@ -706,6 +746,11 @@
                 font-size: 40px;
             }
 
+            .contenedor-4:hover {
+                transform: scale(1.02);
+                transition: all 6s ease;
+            }
+
             .bg1 {
                 width: 100%;
             }
@@ -732,6 +777,11 @@
 
             .tit_ubicacion {
                 font-size: 40px;
+            }
+
+            .contenedor-5:hover {
+                transform: scale(1.03);
+                transition: all 6s ease;
             }
 
             .lista_u {
