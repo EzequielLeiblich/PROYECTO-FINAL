@@ -493,8 +493,9 @@
     .nav-menu-item {
        display: block;
        line-height: 30px;
-       margin: 50px 0;
+       margin: 20px 0;
        transition: all .5s;
+       font-size: xx-large;
     }
 
     .nav-menu-item a{
