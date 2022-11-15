@@ -50,54 +50,56 @@
             <!-- MAIN -->
 
                 <main>
+                    <h2 class="tit_contacto shadow-lg p-3 mb-5">CONTACTENOS</h2>
+                    <div class="contenedor-5">
+                        <!-- 1er SECCION -->
 
-                    <!-- 1er SECCION -->
+                            <section class="ubicacion">
+                                <h2 class="tit_ubicacion shadow-lg p-3 mb-5">UBICACIÓN</h2><br/>
+                                <ul class="lista_u">
+                                    <li><b>Direccion:</b> Calle Desconocida 123, Sprindfield, EE UU</li>
+                                    <li><b>Telefono:</b> +54 (011) 123-4567</li>
+                                    <li><b>E-mail:</b><a href="mailto:elcorreoquequieres@correo.com">estonoimporta@mimail.com</a></li>
+                                </ul><br/>
+                                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d203491.12078780757!2d-93.3903322!3d37.1634277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62f745c8983f%3A0x6bfd6cb31e690da0!2sSpringfield%2C%20Misuri%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1666215108804!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <br/><br/>
+                            </section>
+                        
+                        <!-- 2da SECCION -->
+                        
+                            <section class="formulario">
+                                <form class="form_list">
+                                    <legend class="tit_mensajes shadow-lg p-3 mb-5">DEJANOS TU MENSAJE:</legend>
+                                    <fieldset class="mensajes">
+                                        <label for="nombre_completo"><b>Apellido y Nombre:</b></label><br/>
+                                        <input type="text" size="50" name="nombre_completo" placeholder="Apellido Y Nombre.." required/><br/>
+                                        <label for="razon_social"><b>Razon Social:</b></label><br/>
+                                        <input type="text" size="50" name="razon_social" placeholder="Razon Social.."/><br/>
+                                        <label for="e-mail"><b>E-Mail:</b></label><br/>
+                                        <input type="text" size="50" name="e-mail" placeholder="E-mail.." required/><br/>
+                                        <label for="telefono"><b>Telefono:</b></label><br/>
+                                        <input type="text" size="50" name="telefono" placeholder="Telefono.."/><br/>
+                                        <label for="telefono"><b>Comentarios:</b></label><br/>
+                                        <textarea name="mensaje" cols="50" rows="10" placeholder="Escribe.."></textarea><br/>
+                                        <input type="submit" class="btn btn-success " value="Enviar"/>
+                                        <input type="reset" class="btn btn-danger" value="Borrar Todo"/><br/>
+                                    </fieldset>
+                                </form><br/><br/>
+                            </section>
+                        
+                        <!-- 3er SECCION -->
 
-                        <section class="ubicacion">
-                            <h2 class="tit_ubicacion">UBICACIÓN</h2><br/>
-                            <ul class="lista_u">
-                                <li>Direccion: Calle Desconocida 123, Sprindfield, EE UU</li>
-                                <li>Telefono: +54 (011) 123-4567</li>
-                                <li>E-mail: <a href="mailto:elcorreoquequieres@correo.com">estonoimporta@mimail.com</a></li>
-                            </ul><br/>
-                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d203491.12078780757!2d-93.3903322!3d37.1634277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62f745c8983f%3A0x6bfd6cb31e690da0!2sSpringfield%2C%20Misuri%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1666215108804!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <br/><br/>
-                        </section>
-                    
-                    <!-- 2da SECCION -->
-                    
-                        <section class="formulario">
-                            <form class="form_list">
-                                <fieldset class="mensajes">
-                                    <legend class="tit_mensajes">DEJANOS TU MENSAJE:</legend>
-                                    <label for="nombre_completo">Apellido y Nombre:</label><br/>
-                                    <input type="text" size="50" name="nombre_completo" placeholder="Apellido Y Nombre.." required/><br/>
-                                    <label for="razon_social">Razon Social:</label><br/>
-                                    <input type="text" size="50" name="razon_social" placeholder="Razon Social.."/><br/>
-                                    <label for="e-mail">E-Mail:</label><br/>
-                                    <input type="text" size="50" name="e-mail" placeholder="E-mail.." required/><br/>
-                                    <label for="telefono">Telefono:</label><br/>
-                                    <input type="text" size="50" name="telefono" placeholder="Telefono.."/><br/>
-                                    <label for="telefono">Comentarios:</label><br/>
-                                    <textarea name="mensaje" cols="50" rows="10" placeholder="Escribe.."></textarea><br/>
-                                    <input type="submit" class="btn btn-success " value="Enviar"/>
-                                    <input type="reset" class="btn btn-danger" value="Borrar Todo"/><br/>
-                                </fieldset>
-                            </form><br/><br/>
-                        </section>
-                    
-                    <!-- 3er SECCION -->
-
-                        <section class="nuestros_clientes">
-                            <h3 class="tit_clientes">NUESTROS CLIENTES</h3><br/><br/>
-                            <dl class="clientes">
-                                <li><a href="https://ads.google.com/"><img width="150" height="150"  src="./../assets/google.png"></a><br/>Google Ads</li>
-                                <li><a href="https://www.linkedin.com/feed/"><img width="150" height="150" src="./../assets/linkedin.png"></a><br/>Linkedin</li>
-                                <li><a href="https://www.youtube.com//"><img width="150" height="150" src="./../assets/youtube.png"></a><br/>YouTube</li>
-                                <li><a href="https://www.amazon.com/"><img width="150" height="150" src="./../assets/amazon.png"></a><br/>Amazon</li>
-                                <li><a href="https://web.telegram.org/"><img width="150" height="150" src="./../assets/telegram.png"></a><br/>Telegram</li>
-                            </dl>
-                        </section>
+                            <section class="nuestros_clientes">
+                                <h3 class="tit_clientes shadow-lg p-3 mb-5">NUESTROS CLIENTES</h3><br/><br/>
+                                <dl class="clientes">
+                                    <li><a href="https://ads.google.com/"><img width="150" height="150"  src="./../assets/google.png"></a><br/>Google Ads</li>
+                                    <li><a href="https://www.linkedin.com/feed/"><img width="150" height="150" src="./../assets/linkedin.png"></a><br/>Linkedin</li>
+                                    <li><a href="https://www.youtube.com//"><img width="150" height="150" src="./../assets/youtube.png"></a><br/>YouTube</li>
+                                    <li><a href="https://www.amazon.com/"><img width="150" height="150" src="./../assets/amazon.png"></a><br/>Amazon</li>
+                                    <li><a href="https://web.telegram.org/"><img width="150" height="150" src="./../assets/telegram.png"></a><br/>Telegram</li>
+                                </dl><br/><br/>
+                            </section>
+                    </div>
                 </main>
 
             <!-- FOOTER -->

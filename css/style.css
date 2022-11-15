@@ -79,15 +79,15 @@
         }
 
         .nav-menu-link {
-            padding: 8px;
+            padding: 4px;
             border-radius: 3px;
-            height: 40px;
+            height: 80px;
             
         }
 
         .nav-menu-link:hover ,
         .nav-menu-link_active {
-            background-color: rgb(238, 140, 12);
+            background-color: rgba(238, 140, 12, 0.404);
             transition: 0.5s;
         }
 
@@ -99,7 +99,7 @@
         /* SERVICIOS */
 
             .tit_ns {
-                font-size: 60px;
+                font-size: 45px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
@@ -124,7 +124,7 @@
             /* 1er SECCION SERVICIOS */
 
                 .tit_servicios {
-                    font-size: 40px;
+                    font-size: 35px;
                     text-align: center;
                     text-decoration: underline;
                     font-weight: bolder;
@@ -161,7 +161,7 @@
             /* 2da SECCION MARKETING */
 
                 .tit_mt {
-                    font-size: 40px;
+                    font-size: 35px;
                     text-align: center;
                     text-decoration: underline;
                     font-weight: bolder;
@@ -198,7 +198,7 @@
         /* NOSOTROS */
 
             .historia {
-                font-size: 60px;
+                font-size: 45px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
@@ -222,7 +222,7 @@
             /* 1er SECCION NOSOTROS */
 
                 .tit_nosotros {
-                    font-size: 40px;
+                    font-size: 35px;
                     text-align: center;
                     text-decoration: underline;
                     font-weight: bolder;
@@ -240,7 +240,7 @@
             /* 2da SECCION QUIENES SOMOS */
 
                 .tit_qs {
-                    font-size: 40px;
+                    font-size: 35px;
                     text-align: center;
                     text-decoration: underline;
                     font-weight: bolder;
@@ -277,11 +277,16 @@
         /* MULTIMEDIA */
 
             .tit_multimedia {
-                font-size: 60px;
+                font-size: 45px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
                 background-color: rgba(25, 0, 255, 0.336);
+            }
+
+            .contenedor-3 {
+                width: 90%;
+                margin: 10px auto;
             }
 
             .multimedia {
@@ -292,15 +297,20 @@
         /* BLOG */
         
             .tit_recursos {
-                font-size: 60px;
+                font-size: 45px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
                 background-color: rgba(0, 255, 34, 0.336);
             }
 
+            .contenedor-4 {
+                width: 90%;
+                margin: 10px auto;
+            }
+
             .tit_fuentes {
-                font-size: 50px;
+                font-size: 35px;
                 text-align: center;
                 text-decoration: underline;
                 background-color: rgba(255, 0, 242, 0.336);
@@ -315,10 +325,23 @@
 
         /* CONTACTO */
             
+            .tit_contacto {
+                font-size: 45px;
+                text-align: center;
+                text-decoration: underline;
+                font-weight: bolder;
+                background-color: rgba(2, 162, 255, 0.336);
+            }
+
+            .contenedor-5 {
+                width: 90%;
+                margin: 10px auto;
+            }
+
             /* 1er SECCION UBICACION */
 
                 .tit_ubicacion {
-                    font-size: 60px;
+                    font-size: 35px;
                     text-align: center;
                     text-decoration: underline;
                     font-weight: bolder;
@@ -342,7 +365,7 @@
                 }
 
                 .tit_mensajes {
-                    font-size: 50px;
+                    font-size: 35px;
                     text-decoration: underline;
                     font-weight: bolder;
                     background-color: rgba(255, 0, 0, 0.336);
@@ -350,14 +373,14 @@
 
                 .mensajes {
                     display: inline;
-                    font-size: 30px;
+                    font-size: 25px;
                     text-align: center;
                     }
 
             /* 3ER SECCION CLIENTES */
 
                 .tit_clientes {
-                    font-size: 50px;
+                    font-size: 35px;
                     text-decoration: underline;
                     font-weight: bolder;
                     text-align: center;
