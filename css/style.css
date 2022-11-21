@@ -440,6 +440,22 @@
             margin: 0 auto;
         }
 
+        .fb_icon{
+            width: 80px;
+            height: 80px;
+        }
+        
+        .ins_icon {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .wap_icon {
+            width: 80px;
+            height: 80px;
+        }
+
+
         .foot-link {
             color: rgb(5, 5, 5);
             text-decoration: none;
@@ -814,6 +830,24 @@
                 }
 
     /* FOOTER */
+
+    .fb_icon{
+        width: 50px;
+        height: 50px;
+        margin: 15px 5px;
+    }
+    
+    .ins_icon {
+        width: 50px;
+        height: 50px;
+        margin: 15px 5px;
+    }
+    
+    .wap_icon {
+        width: 50px;
+        height: 50px;
+        margin: 15px 5px;
+    }
 
     .copyright{
         font-size: large;
