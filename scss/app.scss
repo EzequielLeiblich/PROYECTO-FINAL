@@ -9,6 +9,10 @@
 
     @import './components/buttons.scss';
 
+//UTILITIES
+
+    @import './utilities/mixins.scss';
+
 //LAYOUTS
 
     @import './layout/header.scss';

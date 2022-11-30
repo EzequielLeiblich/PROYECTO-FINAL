@@ -1,11 +1,10 @@
 // MULTIMEDIA
         
 .tit_multimedia {
-    font-size: 45px;
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
-    background-color: rgba(25, 0, 255, 0.336);
+    @include titulos(rgba(25, 0, 255, 0.336),45px);
 }
 
 .mm1, .mm2, .mm3, .mm4, .mm5, .mm6, .mm7, .mm8 {

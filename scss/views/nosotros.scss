@@ -25,11 +25,10 @@
         // 1er SECCION NOSOTROS
 
             .tit_nosotros {
-                font-size: 35px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
-                background-color: rgba(0, 255, 136, 0.336);
+                @include titulos(rgba(0, 255, 136, 0.336),35px);
                 grid-area: tit_nosotros;
             }
             
@@ -43,11 +42,10 @@
         // 2da SECCION QUIENES SOMOS
 
             .tit_qs {
-                font-size: 35px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
-                background-color: rgba(183, 0, 255, 0.336);
+                @include titulos(rgba(183, 0, 255, 0.336),35px);
                 grid-area: tit_qs;
             }
             

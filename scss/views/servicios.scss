@@ -1,11 +1,10 @@
 /* SERVICIOS */
         
     .tit_ns {
-        font-size: 45px;
         text-align: center;
         text-decoration: underline;
         font-weight: bolder;
-        background-color: rgba(255, 174, 0, 0.733);
+        @include titulos(rgba(255, 174, 0, 0.733),45px);
     }
 
     .contenedor-1 {
@@ -21,11 +20,10 @@
             // 1er SECCION SERVICIOS
 
             .tit_servicios {
-                font-size: 35px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
-                background-color: rgba(255, 0, 0, 0.329);
+                @include titulos(rgba(255, 0, 0, 0.329),35px);
                 grid-area: tit_servicios;
             }
             
@@ -60,11 +58,10 @@
         // 2da SECCION MARKETING 
 
             .tit_mt {
-                font-size: 35px;
                 text-align: center;
                 text-decoration: underline;
                 font-weight: bolder;
-                background-color: rgba(0, 132, 255, 0.336);
+                @include titulos(rgba(0, 132, 255, 0.336),35px);
                 grid-area: tit_mt;
             }
             

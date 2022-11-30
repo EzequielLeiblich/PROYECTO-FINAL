@@ -1,11 +1,10 @@
 // BLOG
             
     .tit_recursos {
-        font-size: 45px;
         text-align: center;
         text-decoration: underline;
         font-weight: bolder;
-        background-color: rgba(0, 255, 34, 0.336);
+        @include titulos(rgba(0, 255, 34, 0.337),45px);
     }
 
     .contenedor-4 {
@@ -19,10 +18,9 @@
     }
 
     .tit_fuentes {
-        font-size: 35px;
         text-align: center;
         text-decoration: underline;
-        background-color: rgba(255, 0, 242, 0.336);
+        @include titulos(rgba(255, 0, 242, 0.336),35px);
     }
 
     .fuentes {

@@ -1,0 +1,6 @@
+//MIXINS
+
+    @mixin titulos($colores,$sizes) {
+        background-color: $colores;
+        font-size: $sizes;
+    }

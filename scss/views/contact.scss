@@ -1,11 +1,10 @@
 // CONTACTO
             
     .tit_contacto {
-        font-size: 45px;
         text-align: center;
         text-decoration: underline;
         font-weight: bolder;
-        background-color: rgba(2, 162, 255, 0.336);
+        @include titulos(rgba(2, 162, 255, 0.336),45px);
     }
 
     .contenedor-5 {
@@ -21,11 +20,10 @@
     // 1er SECCION UBICACION
 
         .tit_ubicacion {
-            font-size: 35px;
             text-align: center;
             text-decoration: underline;
             font-weight: bolder;
-            background-color: rgba(119, 0, 255, 0.336);
+            @include titulos(rgba(119, 0, 255, 0.336),35px);
         }
         
         .ubicacion {
@@ -45,10 +43,9 @@
         }
         
         .tit_mensajes {
-            font-size: 35px;
             text-decoration: underline;
             font-weight: bolder;
-            background-color: rgba(255, 0, 0, 0.336);
+            @include titulos(rgba(255, 0, 0, 0.336),35px);
         }
         
         .mensajes {
@@ -60,11 +57,10 @@
     // 3ER SECCION CLIENTES
 
         .tit_clientes {
-            font-size: 35px;
             text-decoration: underline;
             font-weight: bolder;
             text-align: center;
-            background-color: rgba(21, 255, 0, 0.336);
+            @include titulos(rgba(21, 255, 0, 0.336),35px);
         }
         
         .clientes {
