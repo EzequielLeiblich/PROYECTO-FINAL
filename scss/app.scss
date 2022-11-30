@@ -7,10 +7,18 @@
 
 //COMPONENTS
 
-@import './components/cards.scss';
+@import './components/buttons.scss';
 
 //LAYOUTS
 
 @import './layout/header.scss';
-@import './layout/main.scss';
+@import './layout/body.scss';
 @import './layout/footer.scss';
+
+//VIEWS
+
+@import './views/servicios.scss';
+@import './views/nosotros.scss';
+@import './views/multimedia.scss';
+@import './views/blog.scss';
+@import './views/contact.scss';

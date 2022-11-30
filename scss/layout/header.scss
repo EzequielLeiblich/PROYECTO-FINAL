@@ -1,7 +1,7 @@
 /* HEADER */
   
     .header {
-        background-color: rgb(251, 255, 0);
+        background-color: $primary_color;
         height: 80px;
         position: fixed;
         width: 100%;
@@ -30,10 +30,10 @@
     }
     
     .logo1 {
-        width: 75px;
-        height: 75px;
+        width: 70px;
+        height: 70px;
         margin-left: 20px;
-        margin-top: -20px;
+        margin-top: -15px;
     }
     
     .infinity {
@@ -80,13 +80,20 @@
         
         /* HEADER */
 
+            .nav {
+                padding: auto;
+            }
+
             .infinity {
                 font-size: 25px;
                 margin-top: 5px;
+                padding: 0 0px;
+                line-height: 0px;
             }
 
             .logo1 {
                 margin-top: 0px;
+                margin-left: 0px;
             }
 
             .bar-btn {
@@ -103,7 +110,7 @@
                 width: 100%;
                 height: 0vh;
                 top: 100px;
-                background: rgb(255, 255, 0, 0.95);
+                background: rgba(255, 255, 0, 0.95);
                 font-size: large;
                 text-align: center;
                 transition: all .5s;
@@ -158,140 +165,17 @@
             }
 
             .logo1 {
-                margin-top: 0px;
-            }
-
-            .bar-btn {
-                display: block;
-                font-size: 25px;
-                color: black;
-                margin-right: 20px;
-                cursor: pointer;
+                margin-top: -10px;
             }
 
             .nav-menu {
-                display: table;
-                position: fixed;
-                width: 100%;
-                height: 0vh;
-                top: 100px;
-                background: rgb(255, 255, 0, 0.95);
-                font-size: large;
-                text-align: center;
-                transition: all .5s;
-                left: 100%;
+                font-weight: 500;
             }
-
-            .nav-menu-item {
-                display: block;
-                line-height: 30px;
-                margin: 20px 0;
-                transition: all .5s;
-                font-size: xx-large;
-
-                a {
-                    color: rgb(5, 5, 5);
-                    font-size: 16px;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                }
-            }
-
-            .nav-menu-link:hover, .nav-menu-link_active {
-                background-color: rgba(238, 140, 12, 0);
-                transition: 0.5s;
-            }
-
-            #check {
-                display: none;
-
-                &:checked ~ {
-                    .nav-menu {
-                        height: 100vh;
-                        left: 0;
-                    }
-
-                    .nav-menu-item {
-                        display: block;
-                    }
-                }
-            }
-    }
-
-/* MEDIA QUERIE SMALL DESKTOP */
-
-    @media (min-width: 1200px) and (max-width: 1400px) {
-
-        /* HEADER */
-
-            .infinity {
-                font-size: 35px;
-                margin-top: 5px;
-            }
-
-            .logo1 {
-                margin-top: 0px;
-            }
-
-            .bar-btn {
-                display: block;
-                font-size: 25px;
-                color: black;
-                margin-right: 20px;
-                cursor: pointer;
-            }
-
-            .nav-menu {
-                display: table;
-                position: fixed;
-                width: 100%;
-                height: 0vh;
-                top: 100px;
-                background: rgb(255, 255, 0, 0.95);
-                font-size: large;
-                text-align: center;
-                transition: all .5s;
-                left: 100%;
-            }
-
-            .nav-menu-item {
-                display: block;
-                line-height: 30px;
-                margin: 20px 0;
-                transition: all .5s;
-                font-size: xx-large;
-
-                a {
-                    color: rgb(5, 5, 5);
-                    font-size: 16px;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                }
-            }
-
-            .nav-menu-link:hover, .nav-menu-link_active {
-                background-color: rgba(238, 140, 12, 0);
-                transition: 0.5s;
-            }
-
-            #check {
-                display: none;
-
-                &:checked ~ {
-                    .nav-menu {
-                        height: 100vh;
-                        left: 0;
-                    }
-
-                    .nav-menu-item {
-                        display: block;
-                    }
-                }
-            }
+            
     }
 
 /* MEDIA QUERIE BIG DESKTOP */
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1401px) {
         /* MISMO QUE DESCKTOP NORMAL */
     }
