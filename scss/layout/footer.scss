@@ -1,7 +1,7 @@
 /* FOOTER */
-    
+        
     .footer {
-        background-color: rgba(161, 161, 161, 0.199);
+        background-color: $tertiary_color;
         height: 80px;
         position: inherit;
         width: 100%;
@@ -26,9 +26,9 @@
     }
 
     .copyright {
-        margin: 25px;
-        font-size: 25px;
-        font-weight: 60px;
+        padding-left: 50px;
+        font-size: 30px;
+        
     }
 
     .foot-menu {
@@ -63,19 +63,48 @@
 
 /* MEDIA QUERIE MOBILE */
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 375px) {
+        
+        /* FOOTER */
+
+            .fb_icon, .ins_icon, .wap_icon {
+                width: 40px;
+                height: 40px;
+                margin: 24px 7px;
+            }
+
+            .copyright {
+                font-size: larger;
+                margin: 15px;
+                padding-left: 10px;
+            }
+
+            .foot-menu {
+                display: none;
+            }
+    }
+
+    @media (min-width: 376px) and (max-width: 768px) {  
 
         /* FOOTER */
 
             .fb_icon, .ins_icon, .wap_icon {
-                width: 50px;
-                height: 50px;
-                margin: 15px 5px;
+                width: 60px;
+                height: 60px;
+                margin: 15px 7px;
+            }
+
+            .foot {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
             }
 
             .copyright {
-                font-size: large;
-                margin: 20px;
+                font-size: x-large;
+                margin: 25px;
+                padding-left: 10px;
+                font-weight: bold;
             }
 
             .foot-menu {
@@ -85,38 +114,22 @@
 
 /* MEDIA QUERIE TABLET */
 
-    @media (min-width: 768px) and (max-width: 1200px) {
+    @media (min-width: 769px) and (max-width: 1200px) {
             
         /* FOOTER */
 
             .copyright {
                 font-size: large;
-                margin: 20px;
+                margin: 10px;
             }
 
             .foot-menu {
-                display: none;
-            }
-    }
-
-/* MEDIA QUERIE SMALL DESKTOP */
-
-    @media (min-width: 1200px) and (max-width: 1400px) {
-
-        /* FOOTER */
-
-            .copyright {
-                font-size: large;
-                margin: 20px;
-            }
-
-            .foot-menu {
-                display: none;
+                font-weight: 300;
             }
     }
 
 /* MEDIA QUERIE BIG DESKTOP */
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1401px) {
         /* MISMO QUE DESCKTOP NORMAL */
     }
