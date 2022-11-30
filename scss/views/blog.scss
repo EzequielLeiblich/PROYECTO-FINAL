@@ -8,9 +8,8 @@
     }
 
     .contenedor-4 {
-        width: 90%;
-        margin: 10px auto;
-
+        
+        @extend .conts;
         &:hover {
             transform: scale(1.03);
             transition: all 6s ease;

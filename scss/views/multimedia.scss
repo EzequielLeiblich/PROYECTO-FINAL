@@ -14,9 +14,7 @@
 
 .contenedor-3 {
     
-    width: 90%;
-    margin: 10px auto;
-    
+    @extend .conts;
     &:hover {
         transform: scale(1.04);
         transition: all 6s ease;

@@ -9,15 +9,14 @@
 
     .contenedor-1 {
 
-        width: 90%;
-        margin: 10px auto;
+        @extend .conts;
+        &:hover {
+            transform: scale(1.04);
+            transition: all 6s ease;
+        }
         
-            &:hover {
-                transform: scale(1.04);
-                transition: all 6s ease;
-            }
-        
-            // 1er SECCION SERVICIOS
+
+        // 1er SECCION SERVICIOS
 
             .tit_servicios {
                 text-align: center;
@@ -92,7 +91,7 @@
                 grid-template-rows: repeat(2, auto);
                 grid-template-areas: "pic3 txt3" "txt4 pic4";
             }
-    }
+        }
 
 // MEDIA QUERIE MOBILE 
 
