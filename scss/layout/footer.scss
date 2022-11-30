@@ -1,4 +1,4 @@
-/* FOOTER */
+// FOOTER
         
     .footer {
         background-color: $tertiary_color;
@@ -61,11 +61,11 @@
         transition: 0.5s;
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE
 
     @media screen and (max-width: 375px) {
         
-        /* FOOTER */
+        // FOOTER
 
             .fb_icon, .ins_icon, .wap_icon {
                 width: 40px;
@@ -86,7 +86,7 @@
 
     @media (min-width: 376px) and (max-width: 768px) {  
 
-        /* FOOTER */
+        // FOOTER
 
             .fb_icon, .ins_icon, .wap_icon {
                 width: 60px;
@@ -112,11 +112,11 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
     @media (min-width: 769px) and (max-width: 1200px) {
             
-        /* FOOTER */
+        // FOOTER
 
             .copyright {
                 font-size: large;
@@ -128,8 +128,8 @@
             }
     }
 
-/* MEDIA QUERIE BIG DESKTOP */
+// MEDIA QUERIE BIG DESKTOP
 
     @media (min-width: 1401px) {
-        /* MISMO QUE DESCKTOP NORMAL */
+        // MISMO QUE DESCKTOP NORMAL
     }

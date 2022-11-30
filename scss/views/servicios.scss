@@ -57,7 +57,7 @@
                 grid-template-areas: "pic1 txt1" "txt2 pic2";
             }
             
-        /* 2da SECCION MARKETING */
+        // 2da SECCION MARKETING 
 
             .tit_mt {
                 font-size: 35px;
@@ -97,11 +97,11 @@
             }
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE 
 
     @media screen and (max-width: 375px) {
 
-        /* SERVICIOS */
+        // SERVICIOS 
 
             .tit_ns {
                 font-size: 30px;
@@ -119,7 +119,7 @@
                     transition: all 6s ease;
                 }
 
-                /* 1er SECCION SERVICIOS */
+                // 1er SECCION SERVICIOS 
 
                     .tit_servicios {
                         font-size: 20px;
@@ -137,7 +137,7 @@
                         grid-template-areas: "pic1" "txt1" "pic2" "txt2";
                     }
 
-                /* 2da SECCION MARKETING */    
+                // 2da SECCION MARKETING   
 
                     .tit_mt {
                         font-size: 20px;
@@ -159,7 +159,7 @@
 
     @media (min-width: 376px) and (max-width: 768px) {    
 
-        /* SERVICIOS */
+        // SERVICIOS
 
             .tit_ns {
                 font-size: 40px;
@@ -176,7 +176,7 @@
                     transition: all 6s ease;
                 }
 
-                /* 1er SECCION SERVICIOS */
+                // 1er SECCION SERVICIOS
 
                     .tit_servicios {
                         font-size: 30px;
@@ -194,7 +194,7 @@
                         grid-template-areas: "pic1" "txt1" "pic2" "txt2";
                     }
 
-                /* 2da SECCION MARKETING */    
+                // 2da SECCION MARKETING  
 
                     .tit_mt {
                         font-size: 30px;
@@ -214,11 +214,11 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
     @media (min-width: 769px) and (max-width: 1200px) {
                     
-        /* SERVICIOS */
+        // SERVICIOS
 
             .tit_ns {
                 font-size: 40px;
@@ -226,7 +226,7 @@
 
             .contenedor-1 {
                 
-                /* 1er SECCION SERVICIOS */
+                // 1er SECCION SERVICIOS
 
                     .tit_servicios {
                         font-size: 30px;
@@ -240,7 +240,7 @@
                         font-size: 18px;
                     }
 
-                /* 2da SECCION MARKETING */  
+                // 2da SECCION MARKETING 
 
                     .tit_mt {
                         font-size: 30px;
@@ -252,8 +252,8 @@
             }
     }
 
-/* MEDIA QUERIE BIG DESKTOP */
+// MEDIA QUERIE BIG DESKTOP
 
     @media (min-width: 1401px) {
-        /* MISMO QUE DESCKTOP NORMAL */
+        // MISMO QUE DESCKTOP NORMAL
     }

@@ -1,4 +1,4 @@
-/* BLOG */
+// BLOG
             
     .tit_recursos {
         font-size: 45px;
@@ -106,7 +106,7 @@
         font-size: x-large;
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE
 
     @media screen and (max-width: 375px) {
 
@@ -122,7 +122,7 @@
 
     @media (min-width: 376px) and (max-width: 768px) {    
 
-        /* BLOG */
+        // BLOG
 
             .tit_fuentes {
                 font-size: 40px;
@@ -138,19 +138,19 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
     @media (min-width: 768px) and (max-width: 1200px) {
                     
-        /* BLOG */
+        // BLOG
 
             .tit_fuentes {
                 font-size: 40px;
             }
     }
 
-/* MEDIA QUERIE BIG DESKTOP */
+// MEDIA QUERIE BIG DESKTOP
 
     @media (min-width: 1400px) {
-        /* MISMO QUE DESCKTOP NORMAL */
+        // MISMO QUE DESCKTOP NORMAL
     }
