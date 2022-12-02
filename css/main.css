@@ -572,6 +572,9 @@ body {
   .mm1, .mm2, .mm3, .mm4, .mm5, .mm6, .mm7, .mm8 {
     width: 100%; } }
 
+body {
+  background-image: none; }
+
 .tit_recursos {
   text-align: center;
   text-decoration: underline;
