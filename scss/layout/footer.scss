@@ -1,5 +1,5 @@
-/* FOOTER */
-    
+// FOOTER
+        
     .footer {
         background-color: $tertiary_color;
         height: 80px;
@@ -61,7 +61,7 @@
         transition: 0.5s;
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE
 
     @media screen and (max-width: 375px) {
         
@@ -112,11 +112,10 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
 
     @media (min-width: 769px) and (max-width: 1200px) {
             
-        /* FOOTER */
+        // FOOTER
 
             .copyright {
                 font-size: large;
@@ -126,10 +125,5 @@
             .foot-menu {
                 font-weight: 300;
             }
-    }
-
-/* MEDIA QUERIE BIG DESKTOP */
-
-    @media (min-width: 1401px) {
-        /* MISMO QUE DESCKTOP NORMAL */
+        
     }

@@ -1,5 +1,5 @@
-/* HEADER */
-  
+// HEADER
+    
     .header {
         background-color: $primary_color;
         height: 80px;
@@ -9,11 +9,11 @@
         left: 0;
         z-index: 1;
     }
-    
+
     #check, .bar-btn {
         display: none;
     }
-    
+
     .nav {
         height: 80px;
         width: 100%;
@@ -23,33 +23,33 @@
         grid-area: nav;
         align-items: center;
     }
-    
+
     .nav-link {
         color: rgb(5, 5, 5);
         text-decoration: none;
     }
-    
+
     .logo1 {
         width: 70px;
         height: 70px;
         margin-left: 20px;
         margin-top: -15px;
     }
-    
+
     .infinity {
         font-size: 40px;
         font-weight: 600;
         padding: 0 40px;
         line-height: 70px;
     }
-    
+
     .nav-menu {
         display: flex;
         margin-right: 20px;
         list-style: none;
         font-weight: bold;
     }
-    
+
     .nav-menu-item {
         font-size: 22px;
         margin: 0 10px;
@@ -57,28 +57,32 @@
         text-transform: uppercase;
         width: 100%;
     }
-    
+
     .nav-menu-link {
         padding: 4px;
         border-radius: 3px;
         height: 80px;
-    
+
         &:hover {
             background-color: rgba(238, 140, 12, 0.404);
             transition: 0.5s;
         }
     }
-    
+
     .nav-menu-link_active {
         background-color: rgba(238, 140, 12, 0.404);
         transition: 0.5s;
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE
 
     @media screen and (max-width: 768px) {
         
-        /* HEADER */
+        // HEADER
+
+            .nav {
+                padding: auto;
+            }
 
             .nav {
                 padding: auto;
@@ -153,11 +157,11 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
     @media (min-width: 768px) and (max-width: 1200px) {
             
-        /* HEADER */
+        // HEADER
 
             .infinity {
                 font-size: 35px;
