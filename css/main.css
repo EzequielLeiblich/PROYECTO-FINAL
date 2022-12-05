@@ -1,14 +1,11 @@
-/* ALL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-/* ALL */
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-/* HEADER */
 .header {
   background-color: #fbff00;
   height: 80px;
@@ -71,9 +68,9 @@
   background-color: rgba(238, 140, 12, 0.404);
   transition: 0.5s; }
 
-/* MEDIA QUERIE MOBILE */
 @media screen and (max-width: 768px) {
-  /* HEADER */
+  .nav {
+    padding: auto; }
   .nav {
     padding: auto; }
   .infinity {
@@ -123,9 +120,7 @@
     #check:checked ~ .nav-menu-item {
       display: block; } }
 
-/* MEDIA QUERIE TABLET */
 @media (min-width: 768px) and (max-width: 1200px) {
-  /* HEADER */
   .infinity {
     font-size: 35px;
     margin-top: 5px; }
@@ -146,7 +141,6 @@ body {
   background-repeat: repeat-y;
   background-position: center; }
 
-/* FOOTER */
 .footer {
   background-color: rgba(161, 161, 161, 0.199);
   height: 80px;
@@ -196,7 +190,6 @@ body {
   background-color: white;
   transition: 0.5s; }
 
-/* MEDIA QUERIE MOBILE */
 @media screen and (max-width: 375px) {
   /* FOOTER */
   .fb_icon, .ins_icon, .wap_icon {
@@ -228,18 +221,12 @@ body {
   .foot-menu {
     display: none; } }
 
-/* MEDIA QUERIE TABLET */
 @media (min-width: 769px) and (max-width: 1200px) {
-  /* FOOTER */
   .copyright {
     font-size: large;
     margin: 10px; }
   .foot-menu {
     font-weight: 300; } }
-
-/* MEDIA QUERIE BIG DESKTOP */
-@media (min-width: 1401px) {
-  /* MISMO QUE DESCKTOP NORMAL */ }
 
 /* SERVICIOS */
 .tit_ns {
@@ -442,61 +429,48 @@ body {
 .contenedor-2 {
   width: 90%;
   margin: 10px auto;
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: "tit_nosotros tit_nosotros" "nosotros nosotros" "tit_qs tit_qs" "per1 desc1" "desc2 per2"; }
+  /* 1er SECCION NOSOTROS */
+  /* 2da SECCION QUIENES SOMOS */ }
   .contenedor-2:hover {
     transform: scale(1.04);
     transition: all 6s ease; }
-
-/* 1er SECCION NOSOTROS */
-.tit_nosotros {
-  font-size: 35px;
-  text-align: center;
-  text-decoration: underline;
-  font-weight: bolder;
-  background-color: rgba(0, 255, 136, 0.336);
-  grid-area: tit_nosotros; }
-
-.nosotros {
-  font-size: 25px;
-  text-align: justify;
-  background-color: rgba(255, 255, 0, 0.336);
-  grid-area: nosotros; }
-
-/* 2da SECCION QUIENES SOMOS */
-.tit_qs {
-  font-size: 35px;
-  text-align: center;
-  text-decoration: underline;
-  font-weight: bolder;
-  background-color: rgba(183, 0, 255, 0.336);
-  grid-area: tit_qs; }
-
-.per1 {
-  grid-area: per1; }
-
-.per2 {
-  grid-area: per2; }
-
-.desc1 {
-  grid-area: desc1; }
-
-.desc2 {
-  grid-area: desc2; }
-
-.qs {
-  display: grid;
-  font-size: 25px;
-  text-align: justify;
-  place-items: center;
-  background-color: rgba(255, 255, 0, 0.336);
-  grid-gap: 10px;
-  grid-column-start: 1;
-  grid-column-end: -1;
-  grid-template-areas: "per1 desc1" "desc2 per2"; }
+  .contenedor-2 .tit_nosotros {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: rgba(0, 255, 136, 0.336);
+    grid-area: tit_nosotros; }
+  .contenedor-2 .nosotros {
+    font-size: 25px;
+    text-align: justify;
+    background-color: rgba(255, 255, 0, 0.336);
+    grid-area: nosotros; }
+  .contenedor-2 .tit_qs {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: rgba(183, 0, 255, 0.336);
+    grid-area: tit_qs; }
+  .contenedor-2 .per1 {
+    grid-area: per1; }
+  .contenedor-2 .per2 {
+    grid-area: per2; }
+  .contenedor-2 .desc1 {
+    grid-area: desc1; }
+  .contenedor-2 .desc2 {
+    grid-area: desc2; }
+  .contenedor-2 .qs {
+    font-size: 25px;
+    text-align: justify;
+    place-items: center;
+    background-color: rgba(255, 255, 0, 0.336);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "per1" "desc1" "per2" "desc2"; }
 
 /* MEDIA QUERIE MOBILE */
 @media screen and (max-width: 768px) {
@@ -504,32 +478,16 @@ body {
   .historia {
     font-size: 40px; }
   .contenedor-2 {
-    width: 90%;
-    margin: 10px auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas: "tit_nosotros" "nosotros" "tit_qs" "per1" "desc1" "per2" "desc2"; }
-    .contenedor-2:hover {
-      transform: scale(1.02);
-      transition: all 6s ease; }
-  /* 1er SECCION NOSOTROS */
-  .tit_nosotros {
-    font-size: 30px; }
-  .nosotros {
-    font-size: 20px; }
-  /* 2da SECCION QUIENES SOMOS */
-  .tit_qs {
-    font-size: 30px; }
-  .qs {
-    display: grid;
-    font-size: 20px;
-    text-align: justify;
-    background-color: rgba(255, 255, 0, 0.336);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "per1" "desc1" "per2" "desc2"; } }
+    /* 1er SECCION NOSOTROS */
+    /* 2da SECCION QUIENES SOMOS */ }
+    .contenedor-2 .tit_nosotros {
+      font-size: 30px; }
+    .contenedor-2 .nosotros {
+      font-size: 20px; }
+    .contenedor-2 .tit_qs {
+      font-size: 30px; }
+    .contenedor-2 .qs {
+      font-size: 20px; } }
 
 /* MEDIA QUERIE TABLET */
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -537,29 +495,16 @@ body {
   .historia {
     font-size: 40px; }
   .contenedor-2 {
-    width: 90%;
-    margin: 10px auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas: "tit_nosotros" "nosotros" "tit_qs" "per1" "desc1" "per2" "desc2"; }
-  /* 1er SECCION NOSOTROS */
-  .tit_nosotros {
-    font-size: 30px; }
-  .nosotros {
-    font-size: 20px; }
-  /* 2da SECCION QUIENES SOMOS */
-  .tit_qs {
-    font-size: 30px; }
-  .qs {
-    display: grid;
-    font-size: 20px;
-    text-align: justify;
-    background-color: rgba(255, 255, 0, 0.336);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "per1" "desc1" "per2" "desc2"; } }
+    /* 1er SECCION NOSOTROS */
+    /* 2da SECCION QUIENES SOMOS */ }
+    .contenedor-2 .tit_nosotros {
+      font-size: 30px; }
+    .contenedor-2 .nosotros {
+      font-size: 20px; }
+    .contenedor-2 .tit_qs {
+      font-size: 30px; }
+    .contenedor-2 .qs {
+      font-size: 20px; } }
 
 /* MEDIA QUERIE SMALL DESKTOP */
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -567,33 +512,16 @@ body {
   .historia {
     font-size: 40px; }
   .contenedor-2 {
-    width: 90%;
-    margin: 10px auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas: "tit_nosotros" "nosotros" "tit_qs" "per1" "desc1" "per2" "desc2"; }
-  /* 1er SECCION NOSOTROS */
-  .tit_nosotros {
-    font-size: 30px; }
-  .nosotros {
-    font-size: 20px; }
-  /* 2da SECCION QUIENES SOMOS */
-  .tit_qs {
-    font-size: 30px; }
-  .qs {
-    display: grid;
-    font-size: 20px;
-    text-align: justify;
-    background-color: rgba(255, 255, 0, 0.336);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "per1" "desc1" "per2" "desc2"; } }
-
-/* MEDIA QUERIE BIG DESKTOP */
-@media (min-width: 1400px) {
-  /* MISMO QUE DESCKTOP NORMAL */ }
+    /* 1er SECCION NOSOTROS */
+    /* 2da SECCION QUIENES SOMOS */ }
+    .contenedor-2 .tit_nosotros {
+      font-size: 30px; }
+    .contenedor-2 .nosotros {
+      font-size: 20px; }
+    .contenedor-2 .tit_qs {
+      font-size: 30px; }
+    .contenedor-2 .qs {
+      font-size: 20px; } }
 
 /* MULTIMEDIA */
 .tit_multimedia {
@@ -685,7 +613,6 @@ body {
 @media (min-width: 1401px) {
   /* MISMO QUE DESCKTOP NORMAL */ }
 
-/* BLOG */
 .tit_recursos {
   font-size: 45px;
   text-align: center;
