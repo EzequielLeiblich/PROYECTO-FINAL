@@ -21,7 +21,7 @@
             transform: scale(1.04);
             transition: all 6s ease;
         }
-    }
+    
         // 1er SECCION NOSOTROS
 
             .tit_nosotros {
@@ -49,22 +49,6 @@
                 grid-area: tit_qs;
             }
             
-            .per1 {
-                grid-area: per1;
-            }
-            
-            .per2 {
-                grid-area: per2;
-            }
-            
-            .desc1 {
-                grid-area: desc1;
-            }
-            
-            .desc2 {
-                grid-area: desc2;
-            }
-            
             .qs {
                 display: grid;
                 font-size: 25px;
@@ -75,7 +59,23 @@
                 grid-column-start: 1;
                 grid-column-end: -1;
                 grid-template-areas: "per1 desc1" "desc2 per2";
+                .per1 {
+                    grid-area: per1;
+                }
+                
+                .per2 {
+                    grid-area: per2;
+                }
+                
+                .desc1 {
+                    grid-area: desc1;
+                }
+                
+                .desc2 {
+                    grid-area: desc2;
+                }
             }
+    }
     
 
 // MEDIA QUERIE MOBILE
@@ -101,33 +101,34 @@
                     transform: scale(1.02);
                     transition: all 6s ease;
                 }
+            
+
+                // 1er SECCION NOSOTROS
+
+                    .tit_nosotros {
+                        font-size: 30px;
+                    }
+
+                    .nosotros {
+                        font-size: 20px;
+                    }
+
+                // 2da SECCION QUIENES SOMOS  
+
+                    .tit_qs {
+                        font-size: 30px;
+                    }
+
+                    .qs {
+                        display: grid;
+                        font-size: 20px;
+                        text-align: justify;
+                        background-color: $secondary_color;
+                        grid-template-columns: repeat(1, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                        grid-template-areas: "per1" "desc1" "per2" "desc2";
+                    }
             }
-
-            // 1er SECCION NOSOTROS
-
-                .tit_nosotros {
-                    font-size: 30px;
-                }
-
-                .nosotros {
-                    font-size: 20px;
-                }
-
-            // 2da SECCION QUIENES SOMOS  
-
-                .tit_qs {
-                    font-size: 30px;
-                }
-
-                .qs {
-                    display: grid;
-                    font-size: 20px;
-                    text-align: justify;
-                    background-color: $secondary_color;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(4, auto);
-                    grid-template-areas: "per1" "desc1" "per2" "desc2";
-                }
     }
 
 // MEDIA QUERIE TABLET
@@ -148,35 +149,36 @@
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-rows: repeat(7, auto);
                 grid-template-areas: "tit_nosotros" "nosotros" "tit_qs" "per1" "desc1" "per2" "desc2";
+            
+
+                // 1er SECCION NOSOTROS
+
+
+                    .tit_nosotros {
+                        font-size: 30px;
+                    }
+
+                    .nosotros {
+                        font-size: 20px;
+                    }
+
+                // 2da SECCION QUIENES SOMOS    
+
+
+                    .tit_qs {
+                        font-size: 30px;
+                    }
+
+                    .qs {
+                        display: grid;
+                        font-size: 20px;
+                        text-align: justify;
+                        background-color: $secondary_color;
+                        grid-template-columns: repeat(1, 1fr);
+                        grid-template-rows: repeat(4, auto);
+                        grid-template-areas: "per1" "desc1" "per2" "desc2";
+                    }
             }
-
-            // 1er SECCION NOSOTROS
-
-
-                .tit_nosotros {
-                    font-size: 30px;
-                }
-
-                .nosotros {
-                    font-size: 20px;
-                }
-
-            // 2da SECCION QUIENES SOMOS    
-
-
-                .tit_qs {
-                    font-size: 30px;
-                }
-
-                .qs {
-                    display: grid;
-                    font-size: 20px;
-                    text-align: justify;
-                    background-color: $secondary_color;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-template-rows: repeat(4, auto);
-                    grid-template-areas: "per1" "desc1" "per2" "desc2";
-                }
     }
 
 // MEDIA QUERIE BIG DESKTOP
