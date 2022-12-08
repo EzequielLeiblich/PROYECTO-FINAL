@@ -19,91 +19,91 @@
     }
 
     .tit_fuentes {
-        font-size: 35px;
         text-align: center;
         text-decoration: underline;
-        background-color: rgba(255, 0, 242, 0.336);
+        @include titulos(rgba(255, 0, 242, 0.336),35px);
     }
 
-    .fuentes {
-        font-size: 20px;
-        margin: 90px;
-        text-align: center;
-        margin: 0;
-    }
+        .fuentes {
+            font-size: 20px;
+            margin: 90px;
+            text-align: center;
+            margin: 0;
 
-    .dbg1 {
-        grid-area: dbg1;
-    }
+            .fts {
+                font-size: large;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(14, auto);
+                grid-template-areas: "dbg1" "bg1" "dbg2" "bg2" "dbg3" "bg3" "dbg4" "bg4" "dbg5" "bg5" "dbg6" "bg6" "dbg7" "bg7";
+                grid-gap: 40px;
+            
+                .dbg1 {
+                    grid-area: dbg1;
+                }
 
-    .dbg2 {
-        grid-area: dbg2;
-    }
+                .dbg2 {
+                    grid-area: dbg2;
+                }
 
-    .dbg3 {
-        grid-area: dbg3;
-    }
+                .dbg3 {
+                    grid-area: dbg3;
+                }
 
-    .dbg4 {
-        grid-area: dbg4;
-    }
+                .dbg4 {
+                    grid-area: dbg4;
+                }
 
-    .dbg5 {
-        grid-area: dbg5;
-    }
+                .dbg5 {
+                    grid-area: dbg5;
+                }
 
-    .dbg6 {
-        grid-area: dbg6;
-    }
+                .dbg6 {
+                    grid-area: dbg6;
+                }
 
-    .dbg7 {
-        grid-area: dbg7;
-    }
+                .dbg7 {
+                    grid-area: dbg7;
+                }
 
-    .bg1 {
-        grid-area: bg1;
-    }
+                .bg1 {
+                    grid-area: bg1;
+                }
 
     .bg2 {
         grid-area: bg2;
     }
-    
+
     .bg3 {
         grid-area: bg3;
     }
 
-    .bg4 {
-        grid-area: bg4;
-    }
+                .bg4 {
+                    grid-area: bg4;
+                }
 
-    .bg5 {
-        grid-area: bg5;
-    }
+                .bg5 {
+                    grid-area: bg5;
+                }
 
-    .bg6 {
-        grid-area: bg6;
-    }
+                .bg6 {
+                    grid-area: bg6;
+                }
 
-    .bg7 {
-        grid-area: bg7;
-    }
+                .bg7 {
+                    grid-area: bg7;
+                }
+                
+                .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
+                    width: 100%;
+                    height: 500px;
+                }
 
-    .fts {
-        font-size: large;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(14, auto);
-        grid-template-areas: "dbg1" "bg1" "dbg2" "bg2" "dbg3" "bg3" "dbg4" "bg4" "dbg5" "bg5" "dbg6" "bg6" "dbg7" "bg7";
-        grid-gap: 40px;
-    }
-
-    .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
-        width: 100%;
-        height: 500px;
-    }
-
-    .dbg1, .dbg2, .dbg3, .dbg4, .dbg5, .dbg6, .dbg7 {
-        font-size: x-large;
+                .dbg1, .dbg2, .dbg3, .dbg4, .dbg5, .dbg6, .dbg7 {
+                    font-size: x-large;
+                }
+            }
+        }
     }
 
 /* MEDIA QUERIE MOBILE */
@@ -128,13 +128,16 @@
                 font-size: 40px;
             }
 
-            .contenedor-4:hover {
+            .contenedor-4 {
+
+                &:hover {
                 transform: scale(1.02);
                 transition: all 6s ease;
-            }
+                }
             
-            .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
-                height: 400px;
+                .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
+                    height: 400px;
+                }
             }
     }
 

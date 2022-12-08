@@ -9,23 +9,21 @@
     }
 
     .contenedor-5 {
-        width: 90%;
-        margin: 10px auto;
-
+        
+        @extend .conts;
         &:hover {
             transform: scale(1.04);
             transition: all 6s ease;
         }
     }
 
-    /* 1er SECCION UBICACION */
+    // 1er SECCION UBICACION
 
         .tit_ubicacion {
-            font-size: 35px;
             text-align: center;
             text-decoration: underline;
             font-weight: bolder;
-            background-color: rgba(119, 0, 255, 0.336);
+            @include titulos(rgba(119, 0, 255, 0.336),35px);
         }
         
         .ubicacion {
@@ -38,17 +36,16 @@
             list-style-type: none;
         }
 
-    /* 2DA SECCION FORMULARIO */
+    // 2DA SECCION FORMULARIO
 
         .formulario {
             text-align: center;
         }
         
         .tit_mensajes {
-            font-size: 35px;
             text-decoration: underline;
             font-weight: bolder;
-            background-color: rgba(255, 0, 0, 0.336);
+            @include titulos(rgba(255, 0, 0, 0.336),35px);
         }
         
         .mensajes {
@@ -57,14 +54,13 @@
             text-align: center;
         }
 
-    /* 3ER SECCION CLIENTES */
+    // 3ER SECCION CLIENTES
 
         .tit_clientes {
-            font-size: 35px;
             text-decoration: underline;
             font-weight: bolder;
             text-align: center;
-            background-color: rgba(21, 255, 0, 0.336);
+            @include titulos(rgba(21, 255, 0, 0.336),35px);
         }
         
         .clientes {
@@ -83,27 +79,27 @@
 
 /* MEDIA QUERIE MOBILE */
 
-    @media screen and (max-width: 768px) {    
+    @media screen and (max-width: 375px) {
 
         /* CONTACTO */
 
-            .tit_contacto {
-                font-size: 40px;
-            }
+        .tit_contacto {
+            font-size: 30px;
+        }
+        .contenedor-5 {
 
             /* 1er SECCION UBICACION */
 
                 .tit_ubicacion {
-                    font-size: 40px;
+                    font-size: 25px;
                 }
 
-                .contenedor-5:hover {
-                    transform: scale(1.03);
-                    transition: all 6s ease;
+                .ubicacion {
+                    font-size: 25px;
                 }
 
                 .lista_u {
-                    font-size: 20px;
+                    font-size: 15px;
                 }
 
                 .mapa {
@@ -137,11 +133,12 @@
                         width: 100px;
                     }
                 }
+        }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
-    @media (min-width: 768px) and (max-width: 1200px) {
+    @media (min-width: 769px) and (max-width: 1200px) {
                     
         /* CONTACTO */
 
