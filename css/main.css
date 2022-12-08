@@ -127,6 +127,8 @@
 @media (min-width: 376px) and (max-width: 900px) {
   .nav {
     padding: auto; }
+  .nav {
+    padding: auto; }
   .infinity {
     font-size: 25px;
     margin-top: 5px;
@@ -185,6 +187,10 @@
     font-size: 23px; }
   .nav-menu-item {
     font-size: 15px; } }
+
+/* MEDIA QUERIE BIG DESKTOP */
+@media (min-width: 1401px) {
+  /* MISMO QUE DESCKTOP NORMAL */ }
 
 body {
   font-family: sans-serif;
