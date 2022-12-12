@@ -10,7 +10,7 @@
     .contenedor-1 {
 
         @extend .conts;
-        opacity: 0.8;
+        opacity: 0.7;
 
         &:hover {
             opacity: 2;
@@ -226,7 +226,7 @@
 
 // MEDIA QUERIE TABLET
 
-    @media (min-width: 769px) and (max-width: 1200px) {
+    @media (min-width: 769px) and (max-width: 1400px) {
                     
         // SERVICIOS
 
