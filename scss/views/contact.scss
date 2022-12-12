@@ -10,10 +10,13 @@
     .contenedor-5 {
         
         @extend .conts;
-            &:hover {
+        opacity: 0.8;
+        &:hover {
+            opacity: 2;
+            transition: opacity 6s;
             transform: scale(1.04);
             transition: all 6s ease;
-            }
+        }
         
         // 1er SECCION UBICACION
 
