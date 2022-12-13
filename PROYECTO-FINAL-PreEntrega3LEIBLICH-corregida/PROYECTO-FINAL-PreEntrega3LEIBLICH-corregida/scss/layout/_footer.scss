@@ -1,0 +1,152 @@
+// FOOTER
+        
+    .footer {
+        background-color: $tertiary_color;
+        height: 80px;
+        position: inherit;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .foot {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .fb_icon, .ins_icon, .wap_icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .foot-link {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+    }
+
+    .copyright {
+        padding-left: 50px;
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .foot-menu {
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+        font-weight: bold;
+    }
+
+    .foot-menu-item {
+        font-size: 22px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    .foot-menu-link {
+        padding: 8px;
+        border-radius: 3px;
+
+        &:hover {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+        }
+    }
+
+    .foot-menu-link_active {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+// MEDIA QUERIE MOBILE
+
+    @media screen and (max-width: 375px) {
+        
+        // FOOTER
+
+            .fb_icon, .ins_icon, .wap_icon {
+                width: 40px;
+                height: 40px;
+                margin: 24px 7px;
+            }
+
+            .copyright {
+                display: none;
+            }
+
+            .foot-menu {
+                display: none;
+            }
+    }
+
+    @media (min-width: 376px) and (max-width: 900px) {  
+
+        // FOOTER
+
+            .fb_icon, .ins_icon, .wap_icon {
+                width: 60px;
+                height: 60px;
+                margin: 15px 7px;
+            }
+
+            .foot {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            .copyright {
+                font-size: large;
+                padding-left: 10px;
+                width: 140px;
+                margin: 15px;
+            }
+
+            .foot-menu {
+                display: none;
+            }
+    }
+
+// MEDIA QUERIE TABLET
+
+    @media (min-width: 901px) and (max-width: 1400px) {
+            
+        // FOOTER
+
+            .copyright {
+                font-size: large;
+                width: 200px;
+                margin: 15px;
+            }
+
+            .fb_icon, .ins_icon, .wap_icon {
+                width: 60px;
+                height: 60px;
+                margin: 15px 7px;
+            }
+
+            .foot {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            .foot-menu {
+                display: none;
+            }
+    }
+
+// MEDIA QUERIE BIG DESKTOP
+
+    @media (min-width: 1401px) {
+        .copyright {
+            font-size: x-large;
+            margin: 15px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+    }
