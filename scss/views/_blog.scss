@@ -1,28 +1,25 @@
 // BLOG
  
     .tit_recursos {
-        font-size: 45px;
         text-align: center;
         text-decoration: underline;
         font-weight: bolder;
-        background-color: rgba(0, 255, 34, 0.336);
+        @include titulos(rgba(0, 255, 34, 0.337),45px);
     }
 
     .contenedor-4 {
-        width: 90%;
-        margin: 10px auto;
-
+        
+        @extend .conts;
         &:hover {
             transform: scale(1.03);
             transition: all 6s ease;
         }
-    }
-
-    .tit_fuentes {
-        text-align: center;
-        text-decoration: underline;
-        @include titulos(rgba(255, 0, 242, 0.336),35px);
-    }
+    
+        .tit_fuentes {
+            text-align: center;
+            text-decoration: underline;
+            @include titulos(rgba(255, 0, 242, 0.336),35px);
+        }
 
         .fuentes {
             font-size: 20px;
@@ -70,13 +67,13 @@
                     grid-area: bg1;
                 }
 
-    .bg2 {
-        grid-area: bg2;
-    }
+                .bg2 {
+                    grid-area: bg2;
+                }
 
-    .bg3 {
-        grid-area: bg3;
-    }
+                .bg3 {
+                    grid-area: bg3;
+                }
 
                 .bg4 {
                     grid-area: bg4;
@@ -106,7 +103,7 @@
         }
     }
 
-/* MEDIA QUERIE MOBILE */
+// MEDIA QUERIE MOBILE
 
     @media screen and (max-width: 375px) {
 
@@ -122,7 +119,7 @@
 
     @media (min-width: 376px) and (max-width: 768px) {    
 
-        /* BLOG */
+        // BLOG
 
             .tit_fuentes {
                 font-size: 40px;
@@ -141,19 +138,19 @@
             }
     }
 
-/* MEDIA QUERIE TABLET */
+// MEDIA QUERIE TABLET
 
     @media (min-width: 768px) and (max-width: 1200px) {
                     
-        /* BLOG */
+        // BLOG
 
             .tit_fuentes {
                 font-size: 40px;
             }
     }
 
-/* MEDIA QUERIE BIG DESKTOP */
+// MEDIA QUERIE BIG DESKTOP
 
     @media (min-width: 1400px) {
-        /* MISMO QUE DESCKTOP NORMAL */
+        // MISMO QUE DESCKTOP NORMAL
     }
