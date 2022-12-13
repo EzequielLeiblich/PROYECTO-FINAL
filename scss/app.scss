@@ -5,10 +5,9 @@
     @import './base/_reset.scss';
     @import './base/_tipography.scss';
 
-//UTILITIES
 
-    @import './utilities/_mixins.scss';
-    @import './utilities/_extends.scss';
+    @import './utilities/mixins.scss';
+    @import './utilities/extends.scss';
 
 //LAYOUTS
 
@@ -18,8 +17,8 @@
 
 //VIEWS
 
-    @import './views/_servicios.scss';
-    @import './views/_nosotros.scss';
-    @import './views/_multimedia.scss';
-    @import './views/_blog.scss';
-    @import './views/_contact.scss';
+    @import './views/servicios.scss';
+    @import './views/nosotros.scss';
+    @import './views/multimedia.scss';
+    @import './views/blog.scss';
+    @import './views/contact.scss';

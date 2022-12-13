@@ -10,11 +10,7 @@
     .contenedor-1 {
 
         @extend .conts;
-        opacity: 0.7;
-
         &:hover {
-            opacity: 2;
-            transition: opacity 6s;
             transform: scale(1.04);
             transition: all 6s ease;
         }
@@ -38,7 +34,7 @@
                 grid-template-columns: repeat(2,auto);
                 grid-template-rows: repeat(2, auto);
                 grid-template-areas: "pic1 txt1" "txt2 pic2";
-                
+
                 .pic1 {
                     grid-area: pic1;
                     width: 100%;
@@ -79,7 +75,7 @@
                 grid-template-columns: repeat(2,auto);
                 grid-template-rows: repeat(2, auto);
                 grid-template-areas: "pic3 txt3" "txt4 pic4";
-                
+
                 .pic3 {
                     grid-area: pic3;
                 }
@@ -226,7 +222,7 @@
 
 // MEDIA QUERIE TABLET
 
-    @media (min-width: 769px) and (max-width: 1400px) {
+    @media (min-width: 769px) and (max-width: 1200px) {
                     
         // SERVICIOS
 

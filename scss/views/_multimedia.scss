@@ -10,10 +10,7 @@
     .contenedor-3 {
         
         @extend .conts;
-        opacity: 0.7;
         &:hover {
-            opacity: 2;
-            transition: opacity 6s;
             transform: scale(1.04);
             transition: all 6s ease;
         }

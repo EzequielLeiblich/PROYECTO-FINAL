@@ -10,13 +10,10 @@
     .contenedor-5 {
         
         @extend .conts;
-        opacity: 0.7;
-        &:hover {
-            opacity: 2;
-            transition: opacity 6s;
+            &:hover {
             transform: scale(1.04);
             transition: all 6s ease;
-        }
+            }
         
         // 1er SECCION UBICACION
 
@@ -50,6 +47,7 @@
                 
                 .mensajes {
                     display: inline;
+                    font-size: 25px;
                     text-align: center;
                 }
             }
@@ -114,7 +112,7 @@
                 }
 
                 .mensajes {
-                    font-size: 8px;
+                    font-size: 10px;
                 }
 
             // 3ER SECCION CLIENTES   
@@ -273,7 +271,7 @@
                 }
 
                 .mensajes {
-                    font-size: 25px;
+                    font-size: 15px;
                 }
 
             // 3ER SECCION CLIENTES  
@@ -298,7 +296,5 @@
 // MEDIA QUERIE BIG DESKTOP
 
     @media (min-width: 1400px) {
-        .mensajes {
-            font-size: 25px;
-        }
+        // MISMO QUE DESCKTOP NORMAL
     }
